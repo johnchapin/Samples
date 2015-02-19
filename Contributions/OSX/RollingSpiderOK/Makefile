@@ -1,6 +1,6 @@
 LIBAR=../../../../ARSDKBuildUtils/Targets/Unix/Install
 
-FRAMEWORKS=-framework Foundation -framework CoreBluetooth -framework CoreGraphics
+FRAMEWORKS=-framework Foundation -framework IOBluetooth -framework CoreGraphics
 INCLUDES=-I$(LIBAR)/include -I.
 LIBDIR=-L$(LIBAR)/lib
 LIBS=-lardiscovery -larnetworkal -larsal -larnetwork -larcommands
